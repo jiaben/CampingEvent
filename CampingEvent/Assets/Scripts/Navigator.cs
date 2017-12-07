@@ -12,12 +12,9 @@ public class Navigator : MonoBehaviour {
 
 	private Vector2 WorldSize;
 	private Vector2 mapSize;
-	private static void initWoldSize(){
-		
-	}
 	// Use this for initialization
 	void Start () {
-		WorldSize = new Vector2 (20, 20);
+		WorldSize = new Vector2 (100, 100);
 		player = GameObject.Find ("MainPlayer");
 		siPlayer = GameObject.Find ("Canvas/Navigator/Pointer");
 		siMap = GameObject.Find ("Canvas/Navigator");
