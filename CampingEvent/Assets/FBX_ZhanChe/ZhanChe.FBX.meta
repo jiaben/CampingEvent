@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 1cb9b5252508a4c1c9dcacf46e8d228a
-timeCreated: 1512751779
+timeCreated: 1512761037
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
@@ -39,21 +39,42 @@ ModelImporter:
     4300010: SUV_exterior
     7400000: Take 001
     9500000: //RootNode
+    11100000: //RootNode
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: lambert3
-    second: {fileID: 2100000, guid: bd8bd2526cfe34050a413363e098a53d, type: 2}
+    second: {fileID: 2100000, guid: 9cfc0dedd6cc443c7ab5c861832a6ff9, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: lambert4
-    second: {fileID: 2100000, guid: 23104eb9703cf4f66bfa5b3cfe1f8ee7, type: 2}
+    second: {fileID: 2100000, guid: 3ab6df03cb90d46329947ea670a67271, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Vehicle_SUV_D
+    second: {fileID: 2800000, guid: 0fba2f414d8304dbc96a8f5ba0c4a773, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Vehicle_SUV_Mech_D
+    second: {fileID: 2800000, guid: b53b84911d4854baaa260e3a27d2ad69, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Vehicle_SUV_Mech_N
+    second: {fileID: 2800000, guid: 21d97facc072b4f99aa445dfdcfa98ea, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Vehicle_SUV_N
+    second: {fileID: 2800000, guid: 53ce24aa0c75044ff9fb3c455192377c, type: 3}
   materials:
     importMaterials: 1
-    materialName: 0
-    materialSearch: 1
+    materialName: 1
+    materialSearch: 0
     materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
@@ -75,7 +96,35 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 1
   meshes:
     lODScreenPercentages: []
@@ -100,7 +149,7 @@ ModelImporter:
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
-    tangentImportMode: 3
+    tangentImportMode: 0
     normalCalculationMode: 4
   importAnimation: 1
   copyAvatar: 0
@@ -118,10 +167,10 @@ ModelImporter:
     rootMotionBoneName: 
     rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
-    hasExtraRoot: 0
+    hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 1
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
