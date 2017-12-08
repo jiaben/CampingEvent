@@ -36,7 +36,6 @@ public class NavigatorControler : MonoBehaviour {
 		Vector2 locationPos = new Vector2(
 			mainPlayPos.x / WorldSize.x * mapSize.x - mapSize.x/2, 
 			mainPlayPos.z / WorldSize.y * mapSize.y - mapSize.y/2);
-		Debug.Log (locationPos.ToString ());
 		riPlayer.rectTransform.localPosition = locationPos;
 	}
 }
