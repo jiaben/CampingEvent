@@ -15,7 +15,7 @@ public class NavigatorControler : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		WorldSize = new Vector2 (200, 200);
-		player = GameObject.Find ("GameObject");
+		player = GameObject.Find ("ZhanChe");
 		siPlayer = GameObject.Find ("Canvas/NavigatorMap/Viewer");
 		siMap = GameObject.Find ("Canvas/NavigatorMap");
 		siPlayer.GetComponent<Image> ().rectTransform.anchoredPosition = new Vector2 (0.0f, 0.0f);
